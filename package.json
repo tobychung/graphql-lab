@@ -1,0 +1,21 @@
+{
+  "name": "graphql-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node bin/run.js",
+    "babel-version": "babel --version"
+  },
+  "author": "Freefolk TM",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-koa": "^2.4.8",
+    "config": "^3.1.0",
+    "graphql": "^14.2.1",
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
